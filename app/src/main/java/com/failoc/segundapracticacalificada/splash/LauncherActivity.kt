@@ -23,7 +23,7 @@ class LauncherActivity: AppCompatActivity() {
             startActivity(Intent(this, LoginActivity::class.java))
             finish()
 
-        }, 1000)
+        }, 6000)
 
     }
 
