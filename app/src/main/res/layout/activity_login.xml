@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/fondo">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/fondo">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtcorreo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/purple_200"
+            android:textSize="18sp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="20dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/fondo"
+        android:textColorHint="@color/fondo">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtpass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColor="@color/purple_200"
+            android:textSize="18sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:text="Ingresar"
+        android:textSize="18sp"
+        android:backgroundTint="@color/orange"/>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iconfb"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="25dp"
+        android:src="@drawable/facebook"/>
+
+    <ImageView
+        android:id="@+id/iconwp"
+        android:layout_toRightOf="@+id/iconfb"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="25dp"
+        android:src="@drawable/wp" />
+</RelativeLayout>
+
+
+    <!--Desarrollado por @Frank-Ventura-->
+
+</LinearLayout>

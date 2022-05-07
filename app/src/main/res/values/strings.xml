@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">segundapracticacalificada</string>
+    <string name="call">llamada al operador</string>
+    <string name="claimsbook">Libro de reclamos</string>
+</resources>
