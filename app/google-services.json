@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "747278678552",
+    "project_id": "tecsup-877c1",
+    "storage_bucket": "tecsup-877c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747278678552:android:eaa33b9e234a52ca39a16d",
+        "android_client_info": {
+          "package_name": "com.failoc.aplicationsensores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747278678552-mfgbuj3501b384gin4tpvdgknta62g38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPsPa3TwbRRODMNTQSrnWxYgpImA_iZEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747278678552-mfgbuj3501b384gin4tpvdgknta62g38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747278678552:android:d8fbeeaf387bcec739a16d",
+        "android_client_info": {
+          "package_name": "com.failoc.segundapracticacalificada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747278678552-mfgbuj3501b384gin4tpvdgknta62g38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPsPa3TwbRRODMNTQSrnWxYgpImA_iZEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747278678552-mfgbuj3501b384gin4tpvdgknta62g38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/colorBackground">
+    android:background="@color/colorBackground"
+    tools:context=".Home.HomeActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarCatalogo"
@@ -38,6 +40,37 @@
         android:src="@drawable/ic_baseline_shopping_cart_24"
         app:tint="@color/white"
         tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnIntersticial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="recetas"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnBonificado"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/fondo"/>
+
+    <Button
+        android:id="@+id/btnBonificado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cupon 10%"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/adViewBanner"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/fondo"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
 
 
 
