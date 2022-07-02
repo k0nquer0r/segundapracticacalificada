@@ -1,6 +1,7 @@
 package com.failoc.segundapracticacalificada.Home
 
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 
@@ -9,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import com.failoc.segundapracticacalificada.Map.MapActivity
 import com.failoc.segundapracticacalificada.R
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
@@ -121,6 +123,13 @@ class HomeActivity: AppCompatActivity() {
             //layoutManager = LinearLayoutManager(context)
             layoutManager = StaggeredGridLayoutManager(2, LinearLayoutManager.VERTICAL)
             adapter = CatalogoAdapter(listCatalogo)
+        }
+
+        btnUbicacion.setOnClickListener{
+            val intent = Intent(this, MapActivity::class.java)
+            startActivity(intent)
+
+            finish()
         }
 
 
